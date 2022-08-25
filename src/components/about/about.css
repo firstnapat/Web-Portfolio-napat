@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300;400;500;600;700&display=swap');
+
+
+
+
+
+
+.containerskill2 {
+
+  display: grid;
+  place-content: center;
+}
+  .cards2 {    
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.75rem;
+    pointer-events: none;
+  }
+  
+  .card2 {
+    max-width: 300px;
+    color: #ffffffda;
+    padding: 1rem;
+    background-color: #202022;
+    
+    pointer-events: auto;
+    
+    transform: scale(1);
+    opacity: 1;
+    transition: all 150ms ease-in-out; 
+    
+    display: flex; 
+    flex-direction: column;
+  }
+    .card-title2 { 
+      position: relative;
+    }
+
+    .date2 {
+      color: #bb86fc;
+      font-size: 0.85rem;
+      margin-bottom: 1.5rem;
+    }
+    
+    .description2 {
+      font-size: 0.9rem;
+    }
+    
+    .body2 :nth-child(even) {
+      transform: translateY(8px);
+    }
+    
+    .body2 :nth-child(n) {
+      transform: rotate(-5deg);
+    }
+  
+
+
+.cards2:hover > .card2:hover {
+  transform: scale(1.15);
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  z-index: 10;
+}
+.cards2:hover > .card2:not(:hover) {
+  opacity: 0.5;
+}
