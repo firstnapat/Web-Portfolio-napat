@@ -1,22 +1,7 @@
 import React from 'react'
 import './skill.css'
 // link images
-// import Airflow from '../../assets/airflow.png'
-// import REACT from '../../assets/react.png'
-// import HTML from '../../assets/html-5.png'
-// import CSS from '../../assets/css-3.png'
-// import Js from '../../assets/java-script.png'
-// import Python from '../../assets/python2.png'
-// import Postgres from '../../assets/Postgres.png'
-// import NodeJs from '../../assets/node-js.png'
-// import GCP from '../../assets/gcp.png'
-// import Express from '../../assets/express.png'
-// import GitHub from '../../assets/github.png'
-// import R from '../../assets/R.png'
-// import Bash from '../../assets/bash2.png'
-// import MongoDb from '../../assets/mongodb.png'
-// import Docker from '../../assets/Docker.png'
-// import Warehouse from '../../assets/GCP_Pipeline3.png'
+
 
 
 const Skills = () => {
@@ -27,10 +12,11 @@ const Skills = () => {
       </div>
       {/* Container */}
 
-      <div className='max-w-[1200px] mx-auto p-4 pb-28 flex flex-col justify-center w-full h-full pl-28'>
+      <div className='max-w-[1200px] mx-auto p-4 pb-28 flex flex-col justify-center w-full h-full px-20'>
         <div>
           <p className='text-4xl font-bold inline text-[#111111]'></p>
         </div>
+        
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 mt-4 w-full">
           <div className="p-6 bg-white border-dashed border-black border-2">
             <h2 class="font-semibold text-lg text-left text-gray-800 mt-2 ">

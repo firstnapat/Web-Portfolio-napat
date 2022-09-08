@@ -242,4 +242,10 @@
       0% 100%,0% 100%);
   }
   
+ .scroll-container {
+  overflow-y: scroll;
  
+ }
+ html, body { 
+  scroll-behavior: smooth
+}

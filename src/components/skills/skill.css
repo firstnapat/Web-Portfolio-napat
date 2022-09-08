@@ -53,7 +53,7 @@
   font-weight: normal;
   line-height: 1.5;
 }
-.card-container .card a .card--hover p.link {
+.card-container .card a .card--hover {
   margin: 20px 0 0;
   font-weight: bold;
   color: #5bc0eb;
@@ -72,7 +72,7 @@
   background-color: black;
   border-color: black;
 }
-.card-container .card.card--dark a .card--hover .link {
+.card-container .card.card--dark a .card--hover {
   color: #fde74c;
 }
 

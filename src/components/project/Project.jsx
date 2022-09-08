@@ -13,19 +13,19 @@ import TextScroller from '../run-text/runtext'
 
 const Project = () => {
     return (
-        <div name='project' className='w-full text-[#111111] bg-[#f5f5f5] pt-20'>
+        <div id='project' className='w-full text-[#111111] bg-[#f5f5f5] pt-20'>
             <div className='max-w-[1000px] mx-auto justify-center w-full h-full'>
-                
+
                 <div className='pb-8'>
-                <TextScroller text={<p className='text-8xl font-bold inline text-[#05C19C] '>WORK WORK WORK</p>}/>
-                    
+                    <TextScroller text={<p className='text-8xl font-bold inline text-[#05C19C] '>WORK WORK WORK</p>} />
+
                     {/* <p className='py-6'>// my recent work</p> */}
                 </div>
                 <div className='body'>
                     <div className="card-container border-[#5bc0eb] border-2 border-dashed">
-                        
+
                         <div className="card card--blue"><a href="https://github.com/firstnapat/End_to_End_Data_Engineer_Project_on_GCP">
-                       
+
                             <div className="card--display flex flex-wrap justify-between"><i className="material-symbols-outlined">toys_fan</i>
                                 <h1 className='text-md font-medium'>Data TH</h1>
                                 <h2>Data Engineer Project (Inprogress) </h2>
@@ -49,15 +49,15 @@ const Project = () => {
                     <div className="card-container border-[#5bc0eb] border-2 border-dashed">
                         <div className="card"><a href="https://immifit.vercel.app/">
                             <div className="card--display flex flex-wrap justify-between"><i className="material-icons">snowboarding</i>
-                            <h1 className='text-md font-medium'>Generation Thailand</h1>
+                                <h1 className='text-md font-medium'>Generation Thailand</h1>
                                 <h2>Full-Stack Developer Project (2022)</h2>
                             </div>
                             <div className="card--hover">
                                 <h2>Immifit Web App (2022)</h2>
                                 <p>
-                                <li>Created Web development for exercise tracking.</li>
-                                            <li>Used Html, CSS, JavaScript, Reactjs, Vitejs Dev Server, ExpressJs, NodeJs and SQL.</li>
-                                            <li>Store data on MongoDB and Cloudinary.</li>
+                                    <li>Created Web development for exercise tracking.</li>
+                                    <li>Used Html, CSS, JavaScript, Reactjs, Vitejs Dev Server, ExpressJs, NodeJs and SQL.</li>
+                                    <li>Store data on MongoDB and Cloudinary.</li>
                                 </p>
                                 <p className="link">Click to see project</p>
                             </div></a>
@@ -67,16 +67,15 @@ const Project = () => {
                     <div className="card-container border-[#5bc0eb] border-2 border-dashed">
                         <div className="card"><a href="https://github.com/firstnapat/Data_Science_Bootcamp_Project/blob/main/Car-Loan-Customer-Bahavior-Report/Car_Loan_Customer_Behavior_Report.pdf">
                             <div className="card--display flex flex-wrap justify-between"><i className="material-symbols-outlined">insights</i>
-                            <h1 className='text-md font-medium text-right'>Data Science Bootcamp <br/> Datarockie </h1>
+                                <h1 className='text-md font-medium text-right'>Data Science Bootcamp <br /> Datarockie </h1>
                                 <h2>Data Analytic Project (2022)</h2>
                             </div>
                             <div className="card--hover ">
                                 <h2>Car Loan Customer Behavior Report (2022)</h2>
-                                <p> 
-                                 <li>Construct a variety of mini-projects. This is one of all in Bootcamp.</li>
-                                 <li>Discovered the Car Loan Customer Behavior Data Set from Kaggle</li>
-                                 <li>Clean data and Generated dashboard for Data insight such as Top5 jobs of Car Loan Customers, Average Age & Risk with House Ownership and Geo-chart.</li>
-                                 
+                                <p>        
+                                    <li>Discovered the Car Loan Customer Behavior Data Set from Kaggle</li>
+                                    <li>Clean data and Generated dashboard for Data insight such as Top5 jobs of Car Loan Customers, Average Age & Risk with House Ownership and Geo-chart.</li>
+
                                 </p>
                                 <p className="link">Click to see project</p>
                             </div></a>
@@ -86,9 +85,9 @@ const Project = () => {
                     <div className="card-container border-[#5bc0eb] border-2 border-dashed">
                         <div className="card card--yellow"><a href="https://jammming-app-by-napat.surge.sh/">
                             <div className="card--display flex flex-wrap justify-between"><i className="material-symbols-outlined">
-                            library_music
+                                library_music
                             </i>
-                            <h1 className='text-md font-medium text-right'>Generation Thailand</h1>
+                                <h1 className='text-md font-medium text-right'>Generation Thailand</h1>
                                 <h2>Front-End Project </h2>
                             </div>
                             <div className="card--hover">
@@ -107,11 +106,11 @@ const Project = () => {
                             </div>
                             <div className="card--hover">
                                 <h2>Web App for Spotting Broken Hip Bone on X-ray Image (2022)</h2>
-                                <p> 
+                                <p>
                                     <li>Created Web development for exercise tracking.</li>
-                                            <li>Used Html, CSS, JavaScript, Reactjs, Vitejs Dev Server, ExpressJs, NodeJs and SQL.</li>
-                                            <li>Store data on MongoDB and Cloudinary.</li>
-                                            </p>
+                                    <li>Used Html, CSS, JavaScript, Reactjs, Vitejs Dev Server, ExpressJs, NodeJs and SQL.</li>
+                                    <li>Store data on MongoDB and Cloudinary.</li>
+                                </p>
                                 <p className="link">Click to see project</p>
                             </div></a>
                             <div className="card--border"></div>
@@ -120,7 +119,7 @@ const Project = () => {
                     <div className="card-container w-[1500px] border-[#5bc0eb] border-2 border-dashed">
                         <div className="card card--light"><a href="https://github.com/firstnapat/Data_Science_Bootcamp_Project/tree/main/HW-SQL-Design_Database">
                             <div className="card--display flex flex-wrap justify-between"><i className="material-symbols-outlined">database</i>
-                            <h1 className='text-md font-medium text-right'>Data Science Bootcamp <br/> Datarockie </h1>
+                                <h1 className='text-md font-medium text-right'>Data Science Bootcamp <br /> Datarockie </h1>
                                 <h2>Data Modeling Project (2022)</h2>
                             </div>
                             <div className="card--hover">
@@ -145,7 +144,7 @@ const Project = () => {
                                     <li>Be in their shoes</li>
                                     <li>Know the right too for the right job </li>
                                     <li>Keep learning</li>
-                                    </p>
+                                </p>
                                 <p className="link">Click to read full content</p>
                             </div></a>
                             <div className="card--border"></div>

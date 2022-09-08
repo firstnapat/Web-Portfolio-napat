@@ -14,62 +14,41 @@ const NavBar = () => {
         <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#f5f5f5] text-black z-50'>
             {/* Logo Web */}
             <div>
-               <a href="/" className='font-bold font-san text-3xl hover:text-[#05C19C]'>NAPAT</a>
+                <a href="/" className='font-bold font-san text-3xl hover:text-[#05C19C]'>NAPAT</a>
             </div>
 
             {/*  menu */}
-            <ul className='hidden md:flex'>
+            <ul className='hidden md:flex scroll-container'>
                 <li className='unexpected-1'>
-                    <Link to="home" smooth={true} duration={500}>
-                        Home
-                    </Link>
+                    <a href="#home">Home</a>
                 </li>
                 <li className='unexpected-1'>
-                    <Link to="about" smooth={true} duration={500}>
-                        About
-                    </Link>
+                    <a href="#about">About</a>
                 </li>
                 <li className='unexpected-1'>
-                    <Link to="project" smooth={true} duration={500}>
-                        Project
-                    </Link>
-                </li>
-                
-                <li className='unexpected-1'>
-                    <Link to="contact" smooth={true} duration={500}>
-                        Contact
-                    </Link>
+                    <a href="#project">Project</a>
                 </li>
                 <li className='unexpected-1'>
-                    <a href="https://drive.google.com/file/d/1tUqACv6bDTiMtPnHfOt-2ACMPb1PSEc4/view?usp=sharing"> Resume</a>
-                       
-                    
+                    <a href="#contact">Contact</a>
+                </li>
+                <li className='unexpected-1'>
+                    <a href="https://drive.google.com/file/d/1x2Sr3iUiIt7GL7w87Uke1LX4lkRASTh-/view?usp=sharing"> Resume</a>
                 </li>
             </ul>
 
             {/* Hamburger */}
-            <div onClick={handleClick} className='md:hidden z-10'>
+            <div onClick={handleClick} className='md:hidden z-20'>
                 {!nav ? <FaBars /> : <FaTimes />}
             </div>
 
 
             {/* Mobile menu */}
-            <ul className={!nav ? 'hidden' : 'absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center'}>
-                <li className='hover-link py-6 text-4xl'> <Link to="home" smooth={true} duration={500}>
-                        Home
-                    </Link></li>
-                <li className='hover-link py-6 text-4xl'><Link to="about" smooth={true} duration={500}>
-                        About
-                    </Link></li>
-                <li className='hover-link py-6 text-4xl'><Link to="project" smooth={true} duration={500}>
-                        Project
-                    </Link></li>
-                <li className='hover-link py-6 text-4xl'> <Link to="contact" smooth={true} duration={500}>
-                        Contact
-                    </Link></li>
-                <li className='hover-link py-6 text-4xl'><Link to="resume" smooth={true} duration={500}>
-                        Resume
-                    </Link></li>
+            <ul className={!nav ? 'hidden' : 'absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center scroll-container'}>
+                <li className='hover-link py-6 text-4xl'> <a href="#home">Home</a></li>
+                <li className='hover-link py-6 text-4xl'><a href="#about">About</a></li>
+                <li className='hover-link py-6 text-4xl'><a href="#project">Project</a></li>
+                <li className='hover-link py-6 text-4xl'><a href="#contact">Contact</a></li>
+                <li className='hover-link py-6 text-4xl'><a href="https://drive.google.com/file/d/1x2Sr3iUiIt7GL7w87Uke1LX4lkRASTh-/view?usp=sharing"> Resume</a></li>
             </ul>
 
             {/* Social icons */}

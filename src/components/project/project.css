@@ -70,13 +70,14 @@
 }
 .card-container .card a:hover .card--display {
   display: none;
+ 
 }
 .card-container .card a:hover .card--hover {
   display: block;
 }
 .card-container .card a .card--display i {
   font-size: 60px;
-  margin-top: 200px;
+  margin-top: 60px;
 }
 .card-container .card a .card--display h2 {
   margin: 20px 0 0;
@@ -85,7 +86,7 @@
   display: none;
 }
 .card-container .card a .card--hover h2 {
-  margin: 20px 0;
+  margin: 0px 0;
 }
 .card-container .card a .card--hover p {
   font-weight: normal;

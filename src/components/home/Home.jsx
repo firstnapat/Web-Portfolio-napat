@@ -11,45 +11,31 @@ import Docker from '../../assets/dockerhome.png'
 const Home = () => {
     return (
 
-        <div name='home' className='pt-44 w-full max-h-screen bg-[#f5f5f5] pb-40'>
-            <span>
-           
-
+        <div id='home' className='pt-16 w-full pb-48 bg-[#f5f5f5]'>
+            <span>           
                 <div className='icon'>
-                    <img src={Airflowhover} alt="airflow" width="150px" className='absolute ml-[1100px]  animate-spin z-20' loading="lazy"/>
-
+                    <img src={Airflowhover} alt="airflow" width="125px" className='mt-10 fixed ml-[1350px] animate-spin z-20 invisible lg:visible' loading="lazy"/>
                 </div>
                 
             </span>
             <span>
                 <div className='hadoop'>
-                
-                    <img src={Hadoop} alt="hadoop" width="150px" className='absolute ml-[900px] mt-[200px] z-20' />
-
+                    <img src={Hadoop} alt="hadoop" width="150px" className='absolute ml-[900px] mt-[200px] z-50 invisible lg:visible' />
                 </div>
             </span>
             <span>
                 <div className='hadoop'>
-                
-                    <img src={GCP} alt="gcp" width="150px" className='absolute ml-[1000px] mt-[300px]  z-20' />
-
+                    <img src={GCP} alt="gcp" width="150px" className='absolute ml-[1000px] mt-[300px] z-50 invisible lg:visible' />
                 </div>
             </span>
             <span>
-                <div className='hadoop'>
-                
-                    <img src={Docker} alt="gcp" width="150px" className='absolute ml-[1200px] mt-[150px]  z-20' />
-
+                <div className='hadoop'>                
+                    <img src={Docker} alt="gcp" width="150px" className='absolute ml-[750px] mt-[350px] z-50 invisible lg:visible' />
                 </div>
             </span>
-{/* 
-            <div name='background' className='absolute mt-36 ml-24 z-40'>
-                <img src={Datasource} alt="source" className='' />
-
-            </div> */}
 
             {/* Container */}
-            <div className='max-w-[1000px] mx-auto px-2 flex flex-col justify-center h-full '>
+            <div className='max-w-[1000px] mx-auto px-2 flex flex-col justify-center h-full'>
                 <p className='text-[#007D83] text-xl'>Hello, there. My name is</p>
                 
                 <h1 className='text-4xl sm:text-7xl font-bold text-[#007D83]'>NAPATSAKORN <br/>PIANCHANA</h1>

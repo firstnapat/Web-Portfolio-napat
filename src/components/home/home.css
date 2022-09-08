@@ -5,6 +5,9 @@
     font-family: rubik;
 }
 
+
+
+
 .hover-link {
     color: rgb(255, 255, 255);
     position:relative;
@@ -147,7 +150,8 @@ span .hadoop:hover {
     -webkit-perspective: 500px;
     perspective: 500px;
 } */
-*{
+
+* {
     -ms-overflow-style: none;
     }
     ::-webkit-scrollbar {

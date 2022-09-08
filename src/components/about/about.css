@@ -1,10 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300;400;500;600;700&display=swap');
 
-
-
-
-
-
 .containerskill2 {
 
   display: grid;
@@ -46,21 +41,21 @@
       font-size: 0.9rem;
     }
     
-    .body2 :nth-child(even) {
+    /* .body2 :nth-child(even) {
       transform: translateY(8px);
     }
     
     .body2 :nth-child(n) {
       transform: rotate(-5deg);
-    }
+    } */
   
 
 
-.cards2:hover > .card2:hover {
+/* .cards2:hover > .card2:hover {
   transform: scale(1.15);
   box-shadow: 0 0 10px rgba(0,0,0,0.5);
   z-index: 10;
 }
 .cards2:hover > .card2:not(:hover) {
   opacity: 0.5;
-}
+} */
