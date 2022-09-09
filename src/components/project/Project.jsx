@@ -24,16 +24,16 @@ const Project = () => {
                 <div className='body'>
                     <div className="card-container border-[#5bc0eb] border-2 border-dashed">
 
-                        <div className="card card--blue"><a href="https://github.com/firstnapat/End_to_End_Data_Engineer_Project_on_GCP">
+                        <div className="card card--blue"><a href="https://github.com/firstnapat/End_to_end_de_project_covid19_daily_dashboard">
 
                             <div className="card--display flex flex-wrap justify-between"><i className="material-symbols-outlined">toys_fan</i>
                                 <h1 className='text-md font-medium'>Data TH</h1>
-                                <h2>Data Engineer Project (Inprogress) </h2>
+                                <h2 >Data Engineer Project (Inprogress) </h2>
                             </div>
 
                             <div className="card--hover">
-                                <h2>End to End Data Pipeline on Google cloud (Inprogress)</h2>
-                                <p>
+                                <h2 className='text-[#111111]'>End to End Data Pipeline on Google cloud (Inprogress)</h2>
+                                <p className='text-[#111111]'>
                                     <li>Ingested Covid19 Data from REST API and Converted to Data frame.</li>
                                     <li>Utilized Cloud Composer to managed a data pipeline and Automated by Apache Airflow.</li>
                                     <li>Load final data to Serverless Data Warehouse in Google BigQuery and Visualized trend on Google Data Studio Dashboard.</li>
@@ -111,7 +111,7 @@ const Project = () => {
                                     <li>Used Html, CSS, JavaScript, Reactjs, Vitejs Dev Server, ExpressJs, NodeJs and SQL.</li>
                                     <li>Store data on MongoDB and Cloudinary.</li>
                                 </p>
-                                <p className="link">Click to see project</p>
+                                <p className="link ">Click to see project</p>
                             </div></a>
                             <div className="card--border"></div>
                         </div>

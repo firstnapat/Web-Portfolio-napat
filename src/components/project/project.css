@@ -95,7 +95,7 @@
 .card-container .card a .card--hover p.link {
   margin: 20px 0 0;
   font-weight: bold;
-  color: #5bc0eb;
+  color: #000000;
 }
 .card-container .card .card--border {
   position: absolute;
@@ -113,7 +113,7 @@
 }
 .card-container .card.card--light a {
   color: white;
-  background-color: #05C19C;
+  background-color: #000000;
   /* border-color: black; */
 }
 .card-container .card.card--yellow a {
@@ -127,10 +127,10 @@
   /* border-color: #FFE492; */
 }
 .card-container .card.card--dark a .card--hover .link {
-  color: #fde74c;
+  color: #5bc0eb;
 }
 .card-container .card.card.card--blue  a .card--hover .link {
-  color: #fde74c;
+  color: #111111;
 }
 .card-container .card.card.card--light  a .card--hover .link {
   color: #fde74c;
